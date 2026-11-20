@@ -8,14 +8,20 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
+            font-family: "Segoe UI", Roboto, Arial, sans-serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298 50%, #6dd5ed);
+            background-attachment: fixed;
+            color: #1f2937;
+            text-align: center;
+        }
+
+        .page {
             min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
             padding: 24px;
-            font-family: "Segoe UI", Roboto, Arial, sans-serif;
-            background: linear-gradient(135deg, #1e3c72, #2a5298 50%, #6dd5ed);
-            color: #1f2937;
+            text-align: left;
         }
 
         .card {
@@ -117,29 +123,31 @@
     </style>
 </head>
 <body>
-    <div class="card">
-        <div class="header">
-            <div class="avatar">ĐK</div>
-            <h1>Trương Hoàng Đăng Khoa</h1>
-            <p>Lab Git &amp; GitHub – CI/CD Deploy</p>
-        </div>
+    <div class="page">
+        <div class="card">
+            <div class="header">
+                <div class="avatar">ĐK</div>
+                <h1>Trương Hoàng Đăng Khoa</h1>
+                <p>Lab Git &amp; GitHub – CI/CD Deploy</p>
+            </div>
 
-        <div class="clock">
-            <div class="time" id="time">--:--:--</div>
-            <div class="date" id="date"></div>
-        </div>
+            <div class="clock">
+                <div class="time" id="time">--:--:--</div>
+                <div class="date" id="date"></div>
+            </div>
 
-        <div class="info">
-            <div class="row"><span>MSSV</span><span>DH52300896</span></div>
-            <div class="row"><span>Lớp</span><span>D23_TH06</span></div>
-            <div class="row"><span>Project</span><span>projectLTWEB (HTML)</span></div>
-            <div class="row"><span>Trạng thái</span><span><i class="dot"></i>Deploy tự động – lần 2</span></div>
-        </div>
+            <div class="info">
+                <div class="row"><span>MSSV</span><span>DH52300896</span></div>
+                <div class="row"><span>Lớp</span><span>D23_TH06</span></div>
+                <div class="row"><span>Project</span><span>projectLTWEB (HTML)</span></div>
+                <div class="row"><span>Trạng thái</span><span><i class="dot"></i>Deploy tự động – lần 2</span></div>
+            </div>
 
-        <div class="badges">
-            <span class="badge b-html">HTML / CSS / JS</span>
-            <span class="badge b-git">GitHub Actions</span>
-            <span class="badge b-host">Somee Hosting</span>
+            <div class="badges">
+                <span class="badge b-html">HTML / CSS / JS</span>
+                <span class="badge b-git">GitHub Actions</span>
+                <span class="badge b-host">Somee Hosting</span>
+            </div>
         </div>
     </div>
 
